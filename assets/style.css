@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
+    font-family: "Baskervville", serif;
+}
+
+header {
     border: 2px red solid;
 }
 
@@ -11,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    font-family: "Baskervville", serif;
     font-weight: bold;
     gap: 0%;
 }
@@ -20,3 +23,14 @@ body {
     font-size: 2rem;
 }
 
+nav {
+    margin-bottom: 200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10%;
+    font-weight: 700;
+}
